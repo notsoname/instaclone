@@ -1,0 +1,93 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &_form {
+        min-width: 350px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        border: 1px solid #d3d3d3;
+        min-height: 330px;
+        display: flex;
+    }
+    &_logocontainer {
+        padding: 22px 0 15px;
+    }
+    &_logo {
+        background-repeat: no-repeat;
+        background-position: 0 -130px;
+        height: 51px;
+        width: 175px;
+        background-image: url(../../assets/logos.077eb7ff.png);
+        display: block;
+    }
+    &_login {
+        width: 256px;
+        height: 38px;
+        color: #000;
+        padding: 0 6px;
+        background-color: #fafafa;
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+        margin: 5px auto;
+    }
+    &_password {
+        width: 256px;
+        height: 38px;
+        color: #000;
+        padding: 0 6px;
+        background-color: #fafafa;
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+        margin: 0 auto 10px;
+    }
+    &_btn {
+        background-color: #0095f6;
+        border: none;
+        border-radius: 3px;
+        width: 258px;
+        height: 38px;
+        margin: 0 auto;
+        color: #fff;
+        cursor: pointer;
+    }
+    &_or {
+        margin: 20px 0;
+        font-size: 13px;
+        color: #8e8e8e;
+    }
+    &_link {
+        color: #385185;
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    &_forgot {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #00376b;
+        font-size: 12px;
+    }
+    &_signUp {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        margin-top: 20px;
+        height: 63px;
+        min-width: 350px;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #d3d3d3;
+        &_link {
+            margin-left: 5px;
+            color: #0095f6;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+}

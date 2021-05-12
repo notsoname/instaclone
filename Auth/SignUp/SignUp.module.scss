@@ -1,0 +1,100 @@
+.signup {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &_form {
+        min-width: 350px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        border: 1px solid #d3d3d3;
+        min-height: 330px;
+        display: flex;
+    }
+    &_title {
+        padding: 22px 0 15px;
+        &_logo {
+            background-repeat: no-repeat;
+            background-position: 0 -130px;
+            height: 51px;
+            width: 175px;
+            background-image: url(../../assets/logos.077eb7ff.png);
+            display: block;
+        }
+    }
+    &_text {
+        width: 270px;
+        text-align: center;
+        color: #8e8e8e;
+    }
+    &_facebook {
+        width: 268px;
+        height: 32px;
+        border-radius: 3px;
+        border: none;
+        background-color: #0095f6;
+        margin-top: 15px;
+        &_link {
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+    &_or {
+        margin: 20px 0;
+        font-size: 13px;
+        color: #8e8e8e;
+    }
+    &_email {
+        width: 256px;
+        height: 34px;
+        margin: 0 auto 10px;
+        color: #000;
+        padding: 0 6px;
+        background-color: #fafafa;
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+    }
+    &_password {
+        width: 256px;
+        height: 34px;
+        margin: 0 auto 10px;
+        color: #000;
+        padding: 0 6px;
+        background-color: #fafafa;
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+    }
+    &_next {
+        background-color: #0095f6;
+        border: none;
+        border-radius: 3px;
+        width: 268px;
+        height: 30px;
+        margin: 0 auto 20px;
+        color: #fff;
+        font-weight: 600;
+    }
+    &_login {
+        min-width: 350px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        border: 1px solid #d3d3d3;
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        margin-top: 20px;
+        height: 63px;
+        &_link {
+            margin-left: 5px;
+            color: #0095f6;
+            font-weight: 700;
+        }
+    }
+}
